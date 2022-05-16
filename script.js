@@ -1,6 +1,6 @@
 /*** Variables ***/
 // API Key REPLACE THE API 
-const API_KEY = 'vRgpxNRNKxyIlc1sk9lEifd6kDJZDK57';
+const API_KEY = 'jTYGn5zd7gAqYJsnR7vE5w64Qfcwpa0x';
 // limit
 const limit = 25; 
 // Get `input`
@@ -30,7 +30,9 @@ inputField.addEventListener('keyup', event => {
         
           // template 
           const template  = `
-            <video src="${gif.images.original.mp4}" autoplay loop></video>
+          <div class="swiper-slide">
+          <video src="${gif.images.original.mp4}"></video>
+        </div>
           `;
         
           // append

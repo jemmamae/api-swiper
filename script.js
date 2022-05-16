@@ -1,5 +1,5 @@
 /*** Variables ***/
-// API Key
+// API Key REPLACE THE API 
 const API_KEY = 'vRgpxNRNKxyIlc1sk9lEifd6kDJZDK57';
 // limit
 const limit = 25; 
